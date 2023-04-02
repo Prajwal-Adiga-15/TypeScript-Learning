@@ -1,0 +1,15 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "TypeScript Learning",
+  "main": "TS_basic.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "TypeScript-Learning"
+  },
+  "author": "Prajwal Adiga B P",
+  "license": "ISC"
+}
