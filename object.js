@@ -1,4 +1,5 @@
-var details = {
+"use strict";
+const details = {
     name: "Prajwal",
     age: 22,
     student: false,
@@ -9,3 +10,4 @@ var details = {
     }
 };
 console.log(details.student, details.age, details.work_details.work);
+//# sourceMappingURL=object.js.map

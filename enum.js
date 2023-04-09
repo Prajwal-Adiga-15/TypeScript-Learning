@@ -1,3 +1,4 @@
+"use strict";
 var Cars;
 (function (Cars) {
     Cars[Cars["LAMBROGINI"] = 1] = "LAMBROGINI";
@@ -7,15 +8,14 @@ var Cars;
     Cars[Cars["BMW"] = 5] = "BMW";
 })(Cars || (Cars = {}));
 ;
-var personal = {
+const personal = {
     name: 'prajwal',
     intrest: 'on cars and bikes',
     bikes: ['Dugati', 'BMW', 'Pulsor'],
     cars: Cars.BMW
 };
-var vehicle = '';
-for (var _i = 0, _a = personal.bikes; _i < _a.length; _i++) {
-    var bike = _a[_i];
+let vehicle = '';
+for (const bike of personal.bikes) {
     if (bike === 'BMW') {
         vehicle = bike;
     }
@@ -27,3 +27,4 @@ if (personal.cars === Cars.BMW) {
 if (vehicle === personal.cars) {
     console.log("let's race!!!");
 }
+//# sourceMappingURL=enum.js.map
